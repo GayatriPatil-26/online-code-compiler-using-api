@@ -1,0 +1,72 @@
+*{
+  padding: 0px;
+  margin:0;
+  box-sizing: border-box;
+  font-family: verdana;
+}
+#header{
+  height: 60px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#header h2{
+  padding-top: 15px;
+}
+.box{
+  width: 70%;
+  min-height: 640px;
+  margin: auto;
+  margin-top: 10px;
+}
+#title{
+  height: 50px;
+  padding:10px;
+}
+#title div{
+  display: inline-block;
+  width:50%;
+}
+select{
+  width: 30%;
+  height: 30px;
+  float:right;
+}
+option{
+  padding: 10px;
+}
+.main-area{
+  height: 540px;
+}
+.code-area{
+  min-height:450px;
+}
+#code{
+  width:100%;
+  height:450px;
+  font-size:20px;
+  margin-top:10px;
+}
+.output-area{
+  min-height: 110px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin-top:10px;
+}
+.btn-area{
+  min-height: 30px;
+  margin-top:10px;
+}
+
+.btn{
+  width: 100px;
+  height:30px;
+  background-color: orange;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

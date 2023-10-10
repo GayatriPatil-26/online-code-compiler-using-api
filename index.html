@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Coding Compiler</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+
+    <div id="header">
+      <h2>Compile And Run The Code</h2>
+    </div>
+
+    <div class="box">
+      <div id="title">
+        <div><h3>Type Your Code<h3></div>
+        <div style="float:right;">
+          <form>
+            <select name="language" id="language">
+              <option value="java">Java</option>
+	      <option value="python">Python</option>
+	      <option value="c_cpp">C / CPP</option>
+            </select>
+          </form>
+        </div>
+      </div>
+
+      <div class="main-area">
+        <div class="code area">
+          <textarea id="code">#Write your code here</textarea>
+        </div>
+
+        <div class="output-area">
+          <p>OUTPUT : </p>
+          <p id="output"></p>
+        </div>
+
+        <div class="btn-area">
+          <button id="compile" class="btn">Compile</button><span style="margin-left:50px;"></span>
+          <button id="reset" class="btn">Reset</button>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
